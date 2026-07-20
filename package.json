@@ -1,6 +1,6 @@
 {
   "name": "z-flux-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Z-Flux utils function",
   "license": "MIT",
   "author": "Akinola Victor",
@@ -13,7 +13,8 @@
     "build-lib": "rollup -c --bundleConfigAsCjs",
     "git": "git add . && git commit -m 'update...' && git push origin master",
     "build-publish": "npm run build-lib2 && npm run git && npm publish",
-    "publish_access": "npm publish --access public"
+    "publish_access": "npm publish --access public",
+    "push": "npm run git && npm publish"
   },
   "repository": {
     "type": "git",

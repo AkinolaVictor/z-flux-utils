@@ -1,4 +1,4 @@
-export default function build_extend_animation(animation, which){
+export function build_extend_animation(animation, which){
     const obj = typeof(animation)=="object"?
                 animation:
                 {};

@@ -7,7 +7,8 @@ export function justSayHello({name}: {name: string}){
 export const {
     findScrollingElement,
     delayer,
-    delayer_react
+    delayer_react,
+    build_extend_animation
 } = utils
 
-export * as build_extend_animation from "./utils/build_extend_animation"
+// export * as build_extend_animation from "./utils/build_extend_animation"
