@@ -1,6 +1,6 @@
 {
   "name": "z-flux-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Z-Flux utils function",
   "license": "MIT",
   "author": "Akinola Victor",
@@ -34,6 +34,8 @@
     "components"
   ],
   "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
