@@ -1,10 +1,8 @@
-import TextFadeSkew_2 from "./textEngineVarieties/TextFadeSkew_2"
-
-// import TextAnimationTemplate from "./TextAnimationTemplate"
+import { findScrollingElement } from "./findScrollingElement"
 
 // // const text_comp = {
-export const text_components = {
-    TextFadeSkew_2,
+export const utils = {
+    findScrollingElement
 }
 
 // export * as TextRevealByHeight from "./TextRevealByHeight"

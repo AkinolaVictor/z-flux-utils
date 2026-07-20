@@ -1,7 +1,7 @@
 {
   "name": "z-flux-utils",
-  "version": "1.0.0",
-  "description": "Z-Flux utils function ",
+  "version": "1.0.1",
+  "description": "Z-Flux utils function",
   "license": "MIT",
   "author": "Akinola Victor",
   "main": "dist/index.js",
@@ -9,6 +9,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build-lib2": "rollup -c",
+    "build": "rollup -c",
     "build-lib": "rollup -c --bundleConfigAsCjs",
     "git": "git add . && git commit -m 'update...' && git push origin master",
     "build-publish": "npm run build-lib2 && npm run git && npm publish",
