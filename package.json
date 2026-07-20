@@ -1,7 +1,7 @@
 {
-  "name": "z-flux",
-  "version": "1.1.1",
-  "description": "A web animation components library ",
+  "name": "z-flux-utils",
+  "version": "1.0.0",
+  "description": "Z-Flux utils function ",
   "license": "MIT",
   "author": "Akinola Victor",
   "main": "dist/index.js",
@@ -10,27 +10,29 @@
   "scripts": {
     "build-lib2": "rollup -c",
     "build-lib": "rollup -c --bundleConfigAsCjs",
-    "git": "git add . && git commit -m 'starting' && git push origin master",
-    "build-publish": "npm run build-lib2 && npm run git && npm publish"
+    "git": "git add . && git commit -m 'update...' && git push origin master",
+    "build-publish": "npm run build-lib2 && npm run git && npm publish",
+    "publish_access": "npm publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/AkinolaVictor/-webflux-react"
+    "url": "git+https://github.com/AkinolaVictor/z-flux-utils"
   },
   "bugs": {
-    "url": "https://https://github.com/AkinolaVictor/-webflux-react"
+    "url": "https://github.com/AkinolaVictor/z-flux-utils"
   },
-  "homepage": "https://webflux-rouge.vercel.app/",
+  "homepage": "https://z-flux.vercel.app/",
   "keywords": [
-    "react",
+    "animation",
     "web animation",
     "web components",
-    "webflux",
-    "flux"
+    "z-flux",
+    "flux",
+    "gsap", 
+    "ui", 
+    "components"
   ],
   "peerDependencies": {
-    "react": ">=17.0.1",
-    "react-dom": ">=17.0.1"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
