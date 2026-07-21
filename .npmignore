@@ -5,5 +5,3 @@ node_modules/
 .vscode/
 
 saver.txt
-tsconfig.json
-rollup.config.js
