@@ -5,3 +5,4 @@ node_modules/
 .vscode/
 
 saver.txt
+tsconfig.json
