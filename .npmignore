@@ -6,3 +6,4 @@ node_modules/
 
 saver.txt
 tsconfig.json
+rollup.config.js
