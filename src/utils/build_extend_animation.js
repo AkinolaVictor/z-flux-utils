@@ -7,7 +7,7 @@ export function build_extend_animation(animation, which){
         const [key, val] = each;
         return {key, val};
     });
-
+    
     const all = {};
 
     for(let i=0; i<input_obj.length; i++){

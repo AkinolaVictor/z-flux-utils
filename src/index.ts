@@ -8,7 +8,8 @@ export const {
     findScrollingElement,
     delayer,
     delayer_react,
-    build_extend_animation
+    build_extend_animation,
+    getProgressionData
 } = utils
 
 // export * as build_extend_animation from "./utils/build_extend_animation"
