@@ -1,3 +1,4 @@
+import { animation_list } from "./animations_list"
 import { build_extend_animation } from "./build_extend_animation"
 import { delayer } from "./delayer"
 import { delayer_react } from "./delayer_react"
@@ -10,7 +11,8 @@ export const utils = {
     delayer_react,
     delayer,
     build_extend_animation,
-    getProgressionData
+    getProgressionData,
+    animation_list
 }
 
 // export * as TextRevealByHeight from "./TextRevealByHeight"
