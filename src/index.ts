@@ -10,7 +10,10 @@ export const {
     delayer_react,
     build_extend_animation,
     getProgressionData,
-    animation_list
+    animation_list,
+    overlay_text_animations,
+    countNumbers,
+    getLayerWidth
 } = utils
 
 // export * as build_extend_animation from "./utils/build_extend_animation"

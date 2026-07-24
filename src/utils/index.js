@@ -1,9 +1,12 @@
 import { animation_list } from "./animations_list"
 import { build_extend_animation } from "./build_extend_animation"
+import { countNumbers } from "./countNumbers"
 import { delayer } from "./delayer"
 import { delayer_react } from "./delayer_react"
 import { findScrollingElement } from "./findScrollingElement"
+import { getLayerWidth } from "./getLayerWidth"
 import { getProgressionData } from "./getProgressionData"
+import { overlay_text_animations } from "./overlay_text_animation"
 
 // // const text_comp = {
 export const utils = {
@@ -12,7 +15,10 @@ export const utils = {
     delayer,
     build_extend_animation,
     getProgressionData,
-    animation_list
+    animation_list,
+    countNumbers,
+    overlay_text_animations,
+    getLayerWidth
 }
 
 // export * as TextRevealByHeight from "./TextRevealByHeight"
