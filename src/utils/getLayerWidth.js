@@ -1,8 +1,8 @@
-export function getLayerWidth(parent, count){
+export function getLayerWidth(parent, count, dimension){
     if(!parent.current) return {lastWidth:"100%", eachWidth:"100%"}
     if(count==1) return {lastWidth:"100%", eachWidth:"100%"}
 
-    const parentWidth = parent.current.getBoundingClientRect().width
+    const parentWidth = parent.current.getBoundingClientRect()[dimension]
     const eachWidth = Math.floor(parentWidth/count)
     const allOtherWidth = eachWidth * (count-1)
     const lastWidth = parentWidth - allOtherWidth
