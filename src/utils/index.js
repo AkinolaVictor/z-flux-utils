@@ -7,6 +7,7 @@ import { findScrollingElement } from "./findScrollingElement"
 import { getLayerWidth } from "./getLayerWidth"
 import { getProgressionData } from "./getProgressionData"
 import { overlay_text_animations } from "./overlay_text_animation"
+import { randomizeArray } from "./randomizeArray"
 
 // // const text_comp = {
 export const utils = {
@@ -18,7 +19,8 @@ export const utils = {
     animation_list,
     countNumbers,
     overlay_text_animations,
-    getLayerWidth
+    getLayerWidth,
+    randomizeArray
 }
 
 // export * as TextRevealByHeight from "./TextRevealByHeight"

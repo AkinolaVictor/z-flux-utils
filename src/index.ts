@@ -13,7 +13,8 @@ export const {
     animation_list,
     overlay_text_animations,
     countNumbers,
-    getLayerWidth
+    getLayerWidth,
+    randomizeArray
 } = utils
 
 // export * as build_extend_animation from "./utils/build_extend_animation"
