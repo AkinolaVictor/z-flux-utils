@@ -193,8 +193,8 @@ export const animation_list = {
         stagger: [null, 0.5],
         duration: [null, 1],
         rotation: [-20, 0]
-    },
-    
+    }, 
+    // asd
     RotateSmallRight: {
         stagger: [null, 0.5],
         duration: [null, 1],
