@@ -32,8 +32,7 @@
     "flux",
     "gsap", 
     "ui", 
-    "components",
-    "component"
+    "components"
   ],
   "peerDependencies": {
     "react": ">=16",
