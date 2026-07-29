@@ -1,4 +1,17 @@
 export const animation_list = {
+    FilmRoll: {
+        opacity: [0, 1],
+        rotation: [720, 0],
+        stagger: [null, 0.5],
+        duration: [null, 1],
+        y: [120, 0]
+    },
+
+    Overlay: {
+        opacity: [0.2, 1],
+        duration: [null, 1],
+        stagger: [null, 0.1]
+    },
     Fade: {
         opacity: [0, 1],
         duration: [null, 1],
@@ -59,11 +72,6 @@ export const animation_list = {
         opacity: [0, 1],
         x: [-100, 0],
         filter: ["blur(10px)", "blur(0px)"],
-        duration: [null, 1],
-        stagger: [null, 0.1]
-    },
-    Overlay: {
-        opacity: [0.2, 1],
         duration: [null, 1],
         stagger: [null, 0.1]
     },
@@ -163,14 +171,6 @@ export const animation_list = {
         duration: [null, 1]
     },
 
-    FilmRoll: {
-        opacity: [0, 1],
-        rotation: [720, 0],
-        stagger: [null, 0.5],
-        duration: [null, 1],
-        y: [120, 0]
-    },
-
     GalaxySpin: {
         opacity: [0, 1],
         rotation: [2160, 0],
@@ -194,7 +194,6 @@ export const animation_list = {
         duration: [null, 1],
         rotation: [-20, 0]
     }, 
-    // asd
     RotateSmallRight: {
         stagger: [null, 0.5],
         duration: [null, 1],
@@ -244,7 +243,7 @@ export const animation_list = {
         // opacity: [0, 1]
     },
     
-    FlapScatter: {
+    FlapTwist: {
         stagger: [null, 0.5],
         duration: [null, 1],
         rotation: [180, 0],
@@ -252,7 +251,7 @@ export const animation_list = {
         // opacity: [0, 1]
     },
     
-    FlapScatter2: {
+    FlapTwist2: {
         stagger: [null, 0.5],
         duration: [null, 1],
         rotation: [-180, 0],
