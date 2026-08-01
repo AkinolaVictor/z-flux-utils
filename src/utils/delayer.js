@@ -6,6 +6,7 @@ export function delayer({working, timeout, time, func}){
     }
     
     working = true
+    // working = true
     
     timeout = setTimeout(() => {
         if(func) func()
