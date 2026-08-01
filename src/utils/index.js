@@ -10,6 +10,7 @@ import { getScrollHeight } from "./getScrollHeight"
 import { overlay_text_animations } from "./overlay_text_animation"
 import { randomizeArray } from "./randomizeArray"
 import { value_negator } from "./value_negator"
+import { vertical_scroll_animations } from "./vertical_scroll_Animation"
 
 // // const text_comp = {
 export const utils = {
@@ -24,7 +25,8 @@ export const utils = {
     getLayerWidth,
     randomizeArray,
     value_negator,
-    getScrollHeight
+    getScrollHeight,
+    vertical_scroll_animations
 }
 
 // export * as TextRevealByHeight from "./TextRevealByHeight"

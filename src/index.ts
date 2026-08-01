@@ -16,7 +16,8 @@ export const {
     getLayerWidth,
     randomizeArray,
     getScrollHeight,
-    value_negator
+    value_negator,
+    vertical_scroll_animations,
 } = utils
 
 // export * as build_extend_animation from "./utils/build_extend_animation"
