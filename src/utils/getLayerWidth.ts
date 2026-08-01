@@ -1,4 +1,4 @@
-export function getLayerWidth(parent, count, dimension){
+export function getLayerWidth(parent:any, count:number, dimension:string){
     if(!parent.current) return {lastWidth:"100%", eachWidth:"100%"}
     if(count==1) return {lastWidth:"100%", eachWidth:"100%"}
 

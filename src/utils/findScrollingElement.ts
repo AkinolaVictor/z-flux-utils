@@ -1,4 +1,4 @@
-export function findScrollingElement(elem, direct){
+export function findScrollingElement(elem:any, direct:boolean){
     let parent = direct?elem:document.querySelector(elem)
     
     while(parent) {

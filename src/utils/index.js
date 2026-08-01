@@ -6,8 +6,10 @@ import { delayer_react } from "./delayer_react"
 import { findScrollingElement } from "./findScrollingElement"
 import { getLayerWidth } from "./getLayerWidth"
 import { getProgressionData } from "./getProgressionData"
+import { getScrollHeight } from "./getScrollHeight"
 import { overlay_text_animations } from "./overlay_text_animation"
 import { randomizeArray } from "./randomizeArray"
+import { value_negator } from "./value_negator"
 
 // // const text_comp = {
 export const utils = {
@@ -20,7 +22,9 @@ export const utils = {
     countNumbers,
     overlay_text_animations,
     getLayerWidth,
-    randomizeArray
+    randomizeArray,
+    value_negator,
+    getScrollHeight
 }
 
 // export * as TextRevealByHeight from "./TextRevealByHeight"

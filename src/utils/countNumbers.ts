@@ -1,4 +1,4 @@
-export function countNumbers(arg){
+export function countNumbers(arg:any){
     let data = []
     if(typeof(arg)=="number"){
         for(let i=0; i<arg; i++){

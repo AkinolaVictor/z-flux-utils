@@ -1,4 +1,4 @@
-export function build_extend_animation(animation, which){
+export function build_extend_animation(animation:object, which:string){
     const obj = typeof(animation)=="object"?
                 animation:
                 {};
@@ -8,7 +8,7 @@ export function build_extend_animation(animation, which){
         return {key, val};
     });
     
-    const all = {};
+    const all:any = {};
 
     for(let i=0; i<input_obj.length; i++){
         const key = input_obj[i].key;

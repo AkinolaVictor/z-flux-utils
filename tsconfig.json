@@ -20,5 +20,3 @@
   },
   "include": ["src"]
 }
-
-// npm i -D @rollup/plugin-commonjs @rollup/plugin-typescript rollup-plugin-dts

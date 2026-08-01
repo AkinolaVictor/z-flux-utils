@@ -1,13 +1,13 @@
 
 export function getProgressionData(
-    progression,
-    chars,
-    words,
-    lines,
-    speed,
-    playOnScroll
+    progression:any,
+    chars:any,
+    words:any,
+    lines:any,
+    speed:any,
+    playOnScroll:any
 ) {
-    const speedMap = {
+    const speedMap:any = {
         char: playOnScroll ? 0.005 : 0.1,
         word: 0.35,
         line: 0.9,
@@ -16,11 +16,11 @@ export function getProgressionData(
     };
 
     if (progression === "char_line") {
-        const animate = lines.flatMap(line => {
-            const lineChars = chars.filter(char =>
+        const animate = lines.flatMap((line:any) => {
+            const lineChars = chars.filter((char:any) =>
                 line.contains(char)
             );
-            return lineChars.map((char, index) => ({
+            return lineChars.map((char:any, index:number) => ({
                 char,
                 charIndexInLine: index
             }));
@@ -33,11 +33,11 @@ export function getProgressionData(
     };
 
     if (progression === "word_line") {
-        const animate = lines.flatMap(line => {
-            const lineWords = words.filter(word =>
+        const animate = lines.flatMap((line:any) => {
+            const lineWords = words.filter((word:any) =>
                 line.contains(word)
             );
-            return lineWords.map((char, index) => ({
+            return lineWords.map((char:any, index:number) => ({
                 char,
                 charIndexInLine: index
             }));
@@ -49,7 +49,7 @@ export function getProgressionData(
         };
     };
 
-    const map = {
+    const map:any = {
         char: chars,
         word: words,
         line: lines
