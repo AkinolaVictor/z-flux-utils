@@ -1,3 +1,4 @@
+import { animations } from "./animations"
 import {utils} from "./utils"
 
 export function justSayHello({name}: {name: string}){
@@ -10,14 +11,18 @@ export const {
     delayer_react,
     build_extend_animation,
     getProgressionData,
-    animation_list,
-    overlay_text_animations,
     countNumbers,
     getLayerWidth,
     randomizeArray,
     getScrollHeight,
     value_negator,
-    vertical_scroll_animations,
 } = utils
+
+
+export const {
+    z_text_animations,
+    overlay_text_animations,
+    vertical_scroll_animations
+} = animations
 
 // export * as build_extend_animation from "./utils/build_extend_animation"

@@ -1,4 +1,4 @@
-export const animation_list = {
+export const z_text_animations = {
     FilmRoll: {
         opacity: [0, 1],
         rotation: [720, 0],
