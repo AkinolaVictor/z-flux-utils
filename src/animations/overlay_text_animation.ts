@@ -31,6 +31,16 @@ const bothScale = [
 ] 
 
 export const overlay_text_animations = {
+    None: {
+        defaultGsap: {
+        },
+        animation_origins: [
+            origins.bottom, //def
+            origins.center,
+            origins.top,
+        ]
+
+    },
     VerticalReveal: {
         defaultGsap: {
             scaleY: [1, 0],

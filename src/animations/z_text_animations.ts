@@ -1,4 +1,7 @@
 export const z_text_animations = {
+    None: {
+    },
+
     FilmRoll: {
         opacity: [0, 1],
         rotation: [720, 0],
