@@ -14,7 +14,6 @@ function Test() {
             <p>is cooking...</p>
             <p>is cooking...</p>
             <p>is cooking...</p>
-            <p>is cooking...</p>
         </>
     )
 }
