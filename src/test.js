@@ -6,7 +6,6 @@ function Test() {
         <>
             <p>something</p>
             <p>is cooking...</p>
-            <p>is cooking...</p>
         </>
     )
 }
