@@ -1,6 +1,5 @@
 // import React from 'react'
 
-// import { TextAnimationTemplate, TextRevealByHeight } from "."
 
 function Test() {
     
