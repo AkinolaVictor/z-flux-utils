@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { TextAnimationTemplate, TextRevealByHeight } from "."
+// import { TextAnimationTemplate, TextRevealByHeight } from "."
 
 function Test() {
     
@@ -8,7 +8,7 @@ function Test() {
         <>
             {/* <TextColorFade ></TextColorFade>
             <TextAnimationTemplate></TextAnimationTemplate> */}
-            
+            <p>d</p>
         </>
     )
 }
