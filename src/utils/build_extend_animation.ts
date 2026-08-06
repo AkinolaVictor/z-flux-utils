@@ -1,4 +1,5 @@
 export function build_extend_animation(animation:any, which:string, negator?:any){
+    const useNegator = {...negator}
     const obj = typeof(animation)=="object"?
                 animation:
                 {};
@@ -18,7 +19,7 @@ export function build_extend_animation(animation:any, which:string, negator?:any
                         "";
         if(which_val !== null){
             all[key] = (
-                negator[key]?
+                useNegator[key]?
                 `-${which_val}`:
                 which_val
             );
