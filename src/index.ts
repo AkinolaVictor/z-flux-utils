@@ -22,7 +22,8 @@ export const {
 export const {
     z_text_animations,
     overlay_text_animations,
-    vertical_scroll_animations
+    vertical_scroll_animations,
+    dualScrollStyleDepencies
 } = animations
 
 // export * as build_extend_animation from "./utils/build_extend_animation"
