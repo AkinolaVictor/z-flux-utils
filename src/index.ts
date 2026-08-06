@@ -16,6 +16,7 @@ export const {
     randomizeArray,
     getScrollHeight,
     value_negator,
+    getBiggerScrollHeight
 } = utils
 
 

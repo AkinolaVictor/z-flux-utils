@@ -3,6 +3,7 @@ import { countNumbers } from "./countNumbers"
 import { delayer } from "./delayer"
 import { delayer_react } from "./delayer_react"
 import { findScrollingElement } from "./findScrollingElement"
+import { getBiggerScrollHeight } from "./getBiggerScrollHeight"
 import { getLayerWidth } from "./getLayerWidth"
 import { getProgressionData } from "./getProgressionData"
 import { getScrollHeight } from "./getScrollHeight"
@@ -20,4 +21,5 @@ export const utils = {
     randomizeArray,
     value_negator,
     getScrollHeight,
+    getBiggerScrollHeight
 }
