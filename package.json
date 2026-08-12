@@ -29,6 +29,8 @@
     "web animation",
     "web components",
     "z-flux",
+    "z-flux-utils",
+    "z-flux-react",
     "flux",
     "gsap", 
     "ui", 
