@@ -5,3 +5,9 @@ what are alternatives to rollup-plugin-postcss that i can use in my rollup proje
 
 why am i getting this error, even though i have reinstalled the rollup-plugin-postcss again and again
 
+
+
+
+I am applying for a front end role, 
+Make a research and answer this question:
+Why would you like to join the Aditude team?
