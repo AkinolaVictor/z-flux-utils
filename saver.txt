@@ -9,3 +9,4 @@ why am i getting this error, even though i have reinstalled the rollup-plugin-po
 // working on a portfolio project to be presented for awwwards
 // still planning to work on the awwward website
 // planning to use AI for this
+// i will do it
