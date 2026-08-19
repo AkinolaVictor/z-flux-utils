@@ -15,3 +15,4 @@ why am i getting this error, even though i have reinstalled the rollup-plugin-po
 // NOTE
 // trusting, God will help me effectively learn claude
 // i really wish i have a very powerful pc, so i can do it all locally
+// doing my best
