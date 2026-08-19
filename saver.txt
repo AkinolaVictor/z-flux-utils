@@ -12,6 +12,6 @@ why am i getting this error, even though i have reinstalled the rollup-plugin-po
 // i will do it
 // sure
 
-
+// NOTE
 // trusting, God will help me effectively learn claude
 // i really wish i have a very powerful pc, so i can do it all locally
